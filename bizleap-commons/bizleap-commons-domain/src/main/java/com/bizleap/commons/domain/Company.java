@@ -44,8 +44,8 @@ public class Company extends AbstractEntity{
 	}
 	
 	public List<Employee> getEmployeeList() {
-		/*if(employeeList==null)
-			this.employeeList=new ArrayList<Employee>();*/
+		if(employeeList==null)
+			this.employeeList=new ArrayList<Employee>();
 		
 		return employeeList;
 	}
